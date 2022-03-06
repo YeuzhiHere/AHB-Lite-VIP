@@ -1,8 +1,4 @@
-# AHB-Lite-Slave-VIP
-
-## TestBench Architecture:
-
-![image](https://user-images.githubusercontent.com/71690787/156921559-75416eec-b76a-4bb9-a7d6-ad0e8460191f.png)
+# AHB-Lite-VIP
 
 ## TestBench Components
 * Transaction Class
@@ -69,4 +65,4 @@ The test is responsible for:
 
 1. Change contraints in the `transaction.sv` file according to the test you want to run.
 2. Comment/uncomment the tests to be run in the `environment.sv` file.
-3. You can change the number of transactions to be run from the `random_test.sv` file by changing `repeat_count` value.
+3. You can change the number of transactions to be run from the `test.sv` file by changing `repeat_count` value.
