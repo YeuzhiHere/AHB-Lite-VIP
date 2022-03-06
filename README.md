@@ -65,4 +65,4 @@ The test is responsible for:
 
 1. Change contraints in the `transaction.sv` file according to the test you want to run.
 2. Comment/uncomment the tests to be run in the `environment.sv` file.
-3. You can change the number of transactions to be run from the `test.sv` file by changing `repeat_count` value.
+3. You can change the number of transactions to be run from the `test.sv` file.
